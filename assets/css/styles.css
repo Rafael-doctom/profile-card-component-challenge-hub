@@ -1,30 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(185, 75%, 39%);
+}
+
+
 /* container */
 .container{
     display:flex;
     justify-content: center;
+    position: absolute;
+    width: 100vw ;
+    height: 100vh;
+    background-image: url(../images/bg-pattern-top.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position: top -450px left -250px;
 }
 
 /* main */
 .main{
+    /* position: absolute; */
     display: flex;
     flex-direction: column;
+    text-align: center;
+    margin-top:250px;
+    width: 30em;
+    height: 25em;
+    background-color: white;
+    position: absolute;
+    z-index: 100;
+    border-radius: 15px 15px 0 0 ;
+
+}
+.profileBg{
+    width: 100%;
+    height: 40%;
+    background: url(../images/bg-pattern-card.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px 15px 0 0 ;
+
+    position: relative;
 }
 .profile{
     display:flex;
     flex-direction: column;
-    
+    margin-top: 50px;
+
 }
 .profileContent{
     display:flex;
     align-items: center;
+    margin:auto;
+}
+.profileName{
+    padding: 1rem;
 }
 .imageProfile img{
     height: 100px;
-    border:3px solid black;
+    border:5px solid white;
     border-radius: 55px;
 }
 
+.country{
+    color: gray;
+}
+.profileContentSkills{
+    border: 0;
+    border-top: 1px solid black;
+    padding: 1rem;
+}
 /* skills */
 .skillsContent{
     display: flex;
+    justify-content: center;
+}
+
+.skill{
+    padding: 0.22rem;
+    color:gray;
+    font-size: 1rem;
+}
+
+
+Footer{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100vw ;
+    height: 100vh;
+    background-image: url(../images/bg-pattern-top.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position: bottom -450px right -250px;
 }
