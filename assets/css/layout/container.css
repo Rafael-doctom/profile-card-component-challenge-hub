@@ -1,0 +1,66 @@
+.l-Container {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../../images/bg-pattern-top.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  background-position: top -450px left -250px;
+}
+.l-Container .btn-white {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 10rem;
+  width: 30em;
+  height: 25em;
+  position: absolute;
+  z-index: 100;
+}
+.l-Container .btn-white .btn-profile {
+  width: 100%;
+  height: 35%;
+  background: url(../../images/bg-pattern-card.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.l-Container .btn-white .btn-profile .profile {
+  display: flex;
+  flex-direction: column;
+  margin-top: 90px;
+  margin-bottom: 1rem;
+}
+.l-Container .btn-white .btn-profile .profile .profileContent {
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+.l-Container .btn-white .btn-profile .profile .profileAge {
+  font-size: 1.65rem;
+}
+.l-Container .btn-white .btn-profile .profile .imageProfile img {
+  height: 100px;
+}
+.l-Container .btn-white .btn-profile .profileContentSkills .skillsContent {
+  display: flex;
+  justify-content: center;
+}
+.l-Container .btn-white .btn-profile .profileContentSkills .skillsContent .skill {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 5%;
+  width: 100vw;
+}
+footer .attribution {
+  width: 40vw;
+  margin: 0 auto;
+  text-align: center;
+}/*# sourceMappingURL=container.css.map */

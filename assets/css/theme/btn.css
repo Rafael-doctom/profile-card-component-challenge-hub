@@ -1,0 +1,45 @@
+body {
+  background-color: var(--DarkCyan);
+}
+
+.l-Container .btn-white {
+  background-color: var(--btnWhite);
+  border-radius: 15px 15px 15px 15px;
+}
+.l-Container .btn-white .btn-profile {
+  border-radius: 15px 15px 0 0;
+}
+.l-Container .btn-white .btn-profile .profile .imageProfile img {
+  border: 5px solid white;
+  border-radius: 55px;
+}
+.l-Container .btn-white .btn-profile .profile .profileAge {
+  color: var(--DarkGray);
+}
+.l-Container .btn-white .btn-profile .profile .profileName {
+  color: var(--VeryDarkDesaturatedBlue);
+  padding: 0 1rem;
+  font-size: 1.55rem;
+  font-weight: 700;
+}
+.l-Container .btn-white .btn-profile .profileContentSkills {
+  border: 0;
+  border-top: 1px solid var(--DarkGray);
+}
+.l-Container .btn-white .btn-profile .country {
+  color: var(--DarkGray);
+}
+.l-Container .btn-white .btn-profile .skill .text-VeryDarkDesaturatedBlue {
+  color: var(--VeryDarkDesaturatedBlue);
+  font-weight: 700;
+}
+.l-Container .btn-white .btn-profile .skill span {
+  color: var(--DarkGray);
+}
+
+footer {
+  color: var(--btnWhite);
+}
+footer a {
+  color: var(--href);
+}/*# sourceMappingURL=btn.css.map */

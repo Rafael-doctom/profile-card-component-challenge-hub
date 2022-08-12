@@ -1,0 +1,61 @@
+body {
+    background-color: var(--DarkCyan);
+}
+
+.l-Container {
+    .btn-white {
+        background-color: var(--btnWhite);
+        border-radius: 15px 15px 15px 15px;
+
+        .btn-profile {
+            border-radius: 15px 15px 0 0;
+
+            .profile {
+                .imageProfile img {
+                    border: 5px solid white;
+                    border-radius: 55px;
+                }
+
+                .profileAge {
+                    color: var(--DarkGray);
+                }
+
+                .profileName {
+                    color: var(--VeryDarkDesaturatedBlue);
+                    padding: 0 1rem;
+                    font-size: 1.55rem;
+                    font-weight: 700;
+                }
+            }
+
+            .profileContentSkills {
+                border: 0;
+                border-top: 1px solid var(--DarkGray);
+            }
+
+            .country {
+                color: var(--DarkGray);
+            }
+
+            .skill {
+
+                .text-VeryDarkDesaturatedBlue {
+                    color: var(--VeryDarkDesaturatedBlue);
+                    font-weight: 700;
+                }
+
+                span {
+                    color: var(--DarkGray);
+                }
+            }
+        }
+    }
+}
+
+footer {
+    color: var(--btnWhite);
+
+    a {
+        color: var(--href);
+    }
+}
