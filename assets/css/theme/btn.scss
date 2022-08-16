@@ -38,7 +38,6 @@ body {
             }
 
             .skill {
-
                 .text-VeryDarkDesaturatedBlue {
                     color: var(--VeryDarkDesaturatedBlue);
                     font-weight: 700;
@@ -46,6 +45,9 @@ body {
 
                 span {
                     color: var(--DarkGray);
+                    @media (max-width:375px) {
+                        font-size: 1.35rem;
+                    }
                 }
             }
         }

@@ -19,6 +19,20 @@
   position: absolute;
   z-index: 100;
 }
+@media (max-width: 425px) {
+  .l-Container .btn-white {
+    margin-top: 5rem;
+    width: 22em;
+    height: 23em;
+  }
+}
+@media (max-width: 375px) {
+  .l-Container .btn-white {
+    margin-top: 5rem;
+    width: 20em;
+    height: 23em;
+  }
+}
 .l-Container .btn-white .btn-profile {
   width: 100%;
   height: 35%;
@@ -63,4 +77,9 @@ footer .attribution {
   width: 40vw;
   margin: 0 auto;
   text-align: center;
+}
+@media (max-width: 425px) {
+  footer .attribution {
+    width: 65vw;
+  }
 }/*# sourceMappingURL=container.css.map */

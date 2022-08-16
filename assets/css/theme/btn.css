@@ -36,6 +36,11 @@ body {
 .l-Container .btn-white .btn-profile .skill span {
   color: var(--DarkGray);
 }
+@media (max-width: 375px) {
+  .l-Container .btn-white .btn-profile .skill span {
+    font-size: 1.35rem;
+  }
+}
 
 footer {
   color: var(--btnWhite);
